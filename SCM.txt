@@ -1,0 +1,18 @@
+------------------- Source Code management ------------------------------
+
+* SCM refers to Source code management or Software configration management.
+* SCM divided into 2 types,
+1. CVCS (Central version control system)
+2. DVCS (Distributive version control system)	
+
+* Git is an Distributive version control system.
+* Git Developed by "Linux torvald" in 2005.
+* Github is an service that provide a respository for store the source code/data.
+* In distributive version control, every contributer has a local repo or 'clone' of the main respository. i.e everyone maintain a local repo. of this own which contain all the file & metadata present in main Repository.
+
+* Advantages:
+1) No required internet.
+2) No other conectivity.
+3) Every contributer has a file & metadata in own local Repo which present in main Repository.
+
+
