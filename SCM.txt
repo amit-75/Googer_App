@@ -7,12 +7,17 @@
 
 * Git is an Distributive version control system.
 * Git Developed by "Linux torvald" in 2005.
+
 * Github is an service that provide a respository for store the source code/data.
-* In distributive version control, every contributer has a local repo or 'clone' of the main respository. i.e everyone maintain a local repo. of this own which contain all the file & metadata present in main Repository.
+* In DVCS, every contributer/client has a local repo or 'clone' of the main respository. i.e everyone maintain a local repo. which contain all the file & metadata that present in main Repository.
 
 * Advantages:
 1) No required internet.
 2) No other conectivity.
 3) Every contributer has a file & metadata in own local Repo which present in main Repository.
+
+Difference between CVCS & DVCS :-
+CVCS --> In this, client need to get a local copy of source from server and do changes and then commit those changes on server.
+DVCS --> In this, Each client have a local repo in which contain a data & metadata that present in main Repository.
 
 
