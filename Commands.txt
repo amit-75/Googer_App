@@ -1,0 +1,40 @@
+------------------------------- Git Commands -------------------------------
+
+0. pwd -----------------------------------> (For take a current Repo. path)
+1. ls -lart ------------------------------> (Give all file/folders inside a folder )
+2. touch file_name -----------------------> (For creating a blank file)
+3. git add -A ----------------------------> (For tracked all file)
+4. git status ----------------------------> (For current status of repo)
+5. git checkout <file_name> --------------> (It reverse the last commit of single file)
+6. git checkout -f -----------------------> (It reverse the last commit of all files)
+7. git diff ------------------------------> (It shows the last commit)
+8. ls ------------------------------------> (It shows the list of files)
+9. git rm --cached <file_name> -----------> (It remove the file only from staging area)
+10. git rm <file_name>--------------------> (It remove the file from all area)
+11. git branch <name> --------------------> (For adding new branch)
+12. git branch ---------------------------> (For check list of branch and current working branch)
+13. git checkout <branch_name> -----------> (For going/working on another branch)
+14. git log ------------------------------> (For check all commits and updates)
+15. git log -p -2 ------------------------> (For check top 2 commits and updates)
+16. git log --stat -----------------------> (For check commits and updates in simple way)
+17. git log --pretty=oneline -------------> (For check commits and updates in oneline)
+                     OR short
+    git log --since=2.days ---------------> (For check commits and updates in last 2 days/week/month/year)
+           OR week/month/year 
+    git log --pretty=format:"%h -- %an" --> (Check in own define format)
+
+18. git checkout -b <branch_name> --------> (For together add and going in new branch)
+19. git merge <branch_name> --------------> (For merge other branch in master branch)
+20. rm -rf .git --------------------------> (For Delete git repository)
+21. git push -----------------------------> (For push the modified Repo. into server Repository(github Repo.)
+22. git dif ------------------------------> (This command tell the difference between staging file & working file)
+23. git mv <old_name> <new_name> ---------> (For rename a file)
+24. git commit -a -m <comment> -----------> (For commit the file without doing staged)
+25. git clone <url_git> <folder_name> ----> (For connect the github Repo.)
+26. git commit --amend -------------------> (For change the commit name)
+27. git restore --staged <file_name> -----> (For unstage file)
+28. git push -u origin master ------------> (For push local Repo. into remote Repo.)
+29. git remote add origin <github_Repo_url> ---------------> (For add remote Repository from github)
+30. git config --global alias.<new_exp> "old_exp"----------> (For creating short_command_name for lengthy_commands)
+
+NOTE:- If we want to ignore the <file_name> then In file .gitingnore, <file_name> write and then will ignored the <file_name>. Even then file is not ingnored then we will do untracked the file (Using git rm --cached <file_name>).
