@@ -36,5 +36,6 @@
 28. git push -u origin master ------------> (For push local Repo. into remote Repo.)
 29. git remote add origin <github_Repo_url> ---------------> (For add remote Repository from github)
 30. git config --global alias.<new_exp> "old_exp"----------> (For creating short_command_name for lengthy_commands)
+31. git restore <file_name> -------------------------------> (For discard changes in modified file)
 
 NOTE:- If we want to ignore the <file_name> then In file .gitingnore, <file_name> write and then will ignored the <file_name>. Even then file is not ingnored then we will do untracked the file (Using git rm --cached <file_name>).
