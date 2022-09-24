@@ -37,5 +37,8 @@
 29. git remote add origin <github_Repo_url> ---------------> (For add remote Repository from github)
 30. git config --global alias.<new_exp> "old_exp"----------> (For creating short_command_name for lengthy_commands)
 31. git restore <file_name> -------------------------------> (For discard changes in modified file)
+32. git branch -v -----------------------------------------> (It give last commit_hash & commit_msg of all branches)
+33. git branch --merged -----------------------------------> (It give branches that merged in master branch)
+34. git branch --no-merged --------------------------------> (It give branches that are no merged in master branch)
 
 NOTE:- If we want to ignore the <file_name> then In file .gitingnore, <file_name> write and then will ignored the <file_name>. Even then file is not ingnored then we will do untracked the file (Using git rm --cached <file_name>).
